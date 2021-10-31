@@ -8,11 +8,11 @@
 
     <title>Daniel Enciso | Full Stack Developer </title>
     <meta name="description"
-          content="Daniel Enciso, Full Stack Developer, Angular, .NET, SQL, Python, Typescript, HTML%, CSS3, Javascript"/>
+          content="Daniel Enciso, Full Stack Developer, Angular, Node.js, .NET, SQL, Python, Typescript, HTML%, CSS3, Javascript"/>
     <meta name="keywords"
-          content="Daniel Enciso, Full Stack Developer, Angular, .NET, SQL, Python, Typescript, HTML%, CSS3, Javascript, Buenos Aires"/>
+          content="Daniel Enciso, Full Stack Developer, Angular, Node.js, .NET, SQL, Python, Typescript, HTML%, CSS3, Javascript, Buenos Aires, Argentina"/>
     <meta name="author" content="Daniel Enciso"/>
-    <meta name="topic" content="Python / Full Stack Developer">
+    <meta name="topic" content="Python / C# / .NET / Node.js / Full Stack Developer">
 
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
           rel='stylesheet' type='text/css'>
@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="css/font-awesome.css">
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="css/styles.css">
+    <!-- Icon Devicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
 
 </head>
@@ -48,8 +50,10 @@
 
     <div class="intro">
         <div class="container text-center">
-            <h1 class="name">Hi, I'm Daniel</h1>
-            <div class="title">I am Developer</div>
+            <div class="container-text">
+                <h1 class="name">Hi, I'm Daniel</h1>
+                <div class="title"><span class="typed-title"></span></div>
+            </div>
         </div><!--//container-->
     </div><!--//intro-->
 
@@ -79,12 +83,15 @@
             <!--Kayak-->
             <div class="item">
                 <div class="work-place">
-                    <h3 class="place">Argentina air force
+                    <h3 class="place">
+                        <a href="https://www.argentina.gob.ar/fuerzaaerea/direccion-general-de-investigacion-y-desarrollo/centro-de-simulacion-y-juegos-de-guerra-csjg">
+                            Argentina air force - Simulation and War Games Center (CSJG)
+                        </a>
                         <small>(Developer)</small>
                     </h3>
                 </div>
                 <div class="job-meta">
-                    <div class="title">Full-stack developer</div>
+                    <div class="title">Full-stack .NET developer</div>
                     <div class="time">2020 - Present</div>
                 </div><!--//job-meta-->
                 <div class="job-desc">
@@ -102,11 +109,10 @@
                 </div><!--//job-desc-->
             </div><!--//Kayak-->
 
-            <!--Lola -->
             <div class="item">
                 <div class="work-place">
                     <h3 class="place">Freelance
-                        <small>(Developer)</small>
+                        <small>(Full-stack Developer)</small>
                     </h3>
                 </div>
                 <div class="job-meta">
@@ -119,15 +125,17 @@
 
                     <p>
                         <b>Responsibilities:</b><br/>
-                        Web applications development.
+                        Web applications development.<br/>
+                        Creation RESTful API in Node.JS Express.<br/>
+                        Responsive web design.<br/>
 
                     </p>
                 </div><!--//job-desc-->
-            </div><!--//lola-->
+            </div>
 
             <div class="item">
                 <div class="work-place">
-                    <h3 class="place">Prexey S.R.L 
+                    <h3 class="place"><a href="https://prexey.com/">Prexey S.R.L</a> 
                         <small>(Information supervisor)</small>
                     </h3>
                 </div>
@@ -194,24 +202,29 @@
         <div class="other-skills">
             <h3 class="subtitle">Other Skills</h3>
             <div class="misc-skills">
-                <span class="skill-tag">HTML5</span>
-                <span class="skill-tag">CSS3</span>
-                <span class="skill-tag">.NET Core</span>
-                <span class="skill-tag">Javascript</span>
-                <span class="skill-tag">Angular</span>
-                <span class="skill-tag">Mysql</span>
-                <span class="skill-tag">Redux</span>
-                <span class="skill-tag">Python</span>
-                <span class="skill-tag">PostgreSQL</span>
-                <span class="skill-tag">Entity Framework</span>
-                <span class="skill-tag">MVC</span>
-                <span class="skill-tag">Node.js</span>
-                <span class="skill-tag">MongoDB</span>
-                <span class="skill-tag">JSON</span>
-                <span class="skill-tag">Git</span>
-                <span class="skill-tag">Twitter Bootstrap</span>
-                <span class="skill-tag">jquery</span>
-                <span class="skill-tag">React</span>
+                <i class="devicon-python-plain colored"></i>
+                <i class="devicon-dotnetcore-plain colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-angularjs-plain colored"></i>
+                <i class="devicon-react-original colored"></i>
+                <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                <i class="devicon-html5-plain-wordmark colored"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon-babel-plain colored"></i>
+                <i class="devicon-dot-net-plain-wordmark colored"></i>
+                <i class="devicon-gitlab-plain-wordmark colored"></i>
+                <i class="devicon-nodejs-plain-wordmark colored"></i>
+                <i class="devicon-express-original-wordmark colored"></i>
+                <i class="devicon-mongodb-plain-wordmark colored"></i>
+                <i class="devicon-mysql-plain-wordmark colored"></i>
+                <i class="devicon-jquery-plain-wordmark colored"></i>
+                <i class="devicon-git-plain colored"></i>
+                <i class="devicon-jupyter-plain-wordmark colored"></i>
+                <i class="devicon-npm-plain colored"></i>
+                <i class="devicon-redux-plain colored"></i>
+                <i class="devicon-tensorflow-plain colored"></i>
+                <i class="devicon-visualstudio-plain colored"></i>
+                <i class="devicon-github-plain colored"></i>
             </div>
         </div><!--//other-skills-->
 
@@ -219,13 +232,15 @@
 
     <!--- Education Section --->
 
-    <section id="education-section" class="education-section section">
+    <section id="education-section" class="education-section section" style="text-align: center;">
         <h2 class="section-title">Education</h2>
-
+                <a href="https://web.upe.edu.ar/" target="_blank">
+                    <img class="profile-image" src="images/logo-header2-1.PNG" alt="" style="width:20%;margin:20px 0">
+                </a><br>
                 <div class="item-inner" style="text-align: center;">
-                    <div class="title">University technician in software development</div>
+                    <div class="title"><a href="https://web.upe.edu.ar/tecnicatura-en-desarrollo-de-software/">University technician in software development</a></div>
                     <div class="sub-title">
-                        Provincial University of Ezeiza
+                        <a href="https://web.upe.edu.ar/">Provincial University of Ezeiza</a>
                     </div>
                     <div class="time">2012 - 2017</div>
                 </div>
@@ -238,7 +253,7 @@
     <section id="portfolio-section" class="book-section section" style="text-align: center;">
         <h2 class="section-title">Portfolio</h2>
         <a href="https://www.electricalsur.com/" target="_blank">
-            <img class="profile-image" src="images/img_temp.jpg" alt="" style="width:80%;margin:20px 0">
+            <img class="profile-image" src="images/electrosur.png" alt="" style="width:40%;margin:20px 0">
         </a><br>     
         Electric service company.<br>
         <a href="https://www.electricalsur.com/" target="_blank">www.electricalsur.com</a>
@@ -296,6 +311,8 @@
 <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+<!-- Write Effect -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
 <!-- custom js -->
 <script type="text/javascript" src="js/main.js"></script>

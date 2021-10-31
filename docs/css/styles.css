@@ -2,7 +2,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #24292e;
-    background: #f5f5f5;
+    background: #696969;
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -21,7 +21,7 @@ h6 {
 }
 
 a {
-    color: #00BCD4;
+    color: #f1ad1a;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
@@ -30,7 +30,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #007888;
+    color: #f1ad1a;
 }
 
 a:focus {
@@ -39,11 +39,12 @@ a:focus {
 
 p {
     line-height: 1.5;
+    color: #fff;
 }
 
 .btn,
 a.btn {
-    background: #008fa1;
+    background: #f1ad1a;
     color: #fff;
     padding: 8px 15px;
     -webkit-border-radius: 2px;
@@ -65,7 +66,7 @@ a.btn {
 .btn:hover,
 a.btn:hover {
     color: #fff;
-    background: #00a5bb;
+    background: #f1ad1a;
 }
 
 #topcontrol {
@@ -73,7 +74,7 @@ a.btn:hover {
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
-    background: #008fa1;
+    background: #7a7c7c;
     color: #fff;
     text-align: center;
     display: inline-block;
@@ -94,7 +95,7 @@ a.btn:hover {
 }
 
 #topcontrol:hover {
-    background: #007888;
+    background: #f1ad1a;
     color: #fff;
 }
 
@@ -177,13 +178,13 @@ a.btn:hover {
 }
 
 .header .name {
-    font-size: 48px;
+    font-size: 72px;
     margin-bottom: 15px;
     letter-spacing: 0.5px;
 }
 
 .header .title {
-    font-size: 28px;
+    font-size: 38px;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.8);
     margin-bottom: 30px;
@@ -285,7 +286,7 @@ a.btn:hover {
     -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
     padding: 45px;
-    background: #fff;
+    background: rgb(87, 86, 86);
     margin-bottom: 45px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -296,6 +297,7 @@ a.btn:hover {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     position: relative;
+    color:#fff;
 
 }
 
@@ -311,7 +313,7 @@ a.btn:hover {
 }
 
 .timeline {
-    border-left: 3px solid #00BCD4;
+    border-left: 3px solid #f1ad1a;
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
     position: relative;
@@ -345,7 +347,7 @@ a.btn:hover {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     background: #fff;
-    border: 3px solid #00BCD4;
+    border: 3px solid #f1ad1a;
 }
 
 .timeline .item:after {
@@ -364,7 +366,7 @@ a.btn:hover {
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    background: #00BCD4;
+    background: #f1ad1a;
     z-index: 10;
 }
 
@@ -398,11 +400,11 @@ a.btn:hover {
 
 .timeline .job-meta .title {
     font-size: 18px;
-    color: #00BCD4;
+    color: #f1ad1a;
 }
 
 .timeline .job-meta .time {
-    color: #8a8a8a;
+    color: #fff;
 }
 
 .timeline .job-desc {
@@ -449,6 +451,7 @@ a.btn:hover {
 
 .chart-easy-pie {
     positon: relative;
+    
 }
 
 .chart {
@@ -461,19 +464,24 @@ a.btn:hover {
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 30px;
+    
 }
 
 .chart span {
     line-height: 110px;
+  
 }
 
 .chart canvas {
     position: absolute;
     left: 0;
     top: 0;
+
 }
 
-
+.misc-skills{
+    font-size: 60px;
+}
 
 /**
 Portfolio Section
@@ -504,8 +512,8 @@ Portfolio Section
 }
 
 .portfolio-section .filters .type.active {
-    color: #00BCD4;
-    border-bottom: 2px solid #00BCD4;
+    color: #f1ad1a;
+    border-bottom: 2px solid #f1ad1a;
 }
 
 .portfolio-section .item {
@@ -559,7 +567,7 @@ Portfolio Section
 
 .portfolio-section .item-inner .content .action span {
     font-weight: 600;
-    color: #00BCD4;
+    color: #f1ad1a;
 }
 
 /**
@@ -574,7 +582,7 @@ Contact section start here
     padding: 30px;
     padding-left: 190px;
     font-size: 16px;
-    color: #24292e;
+    color: #fff;
 }
 
 .contact-section .intro .profile-image {
@@ -598,7 +606,7 @@ Contact section start here
 }
 
 .contact-section .service-list .fa {
-    color: #00BCD4;
+    color: #f1ad1a;
 }
 
 .contact-section .social {
@@ -621,7 +629,7 @@ Contact section start here
 }
 
 .contact-section .social a:hover {
-    color: #00BCD4;
+    color: #f1ad1a;
 }
 
 .footer .container {
@@ -866,67 +874,11 @@ Contact section start here
 }
 
 .config-panel #color-options li.theme-1 a {
-    background: #00BCD4;
+    background: #FF9800;
 }
 
 .config-panel #color-options li.theme-2 a {
-    background-color: #03A9F4;
-}
-
-.config-panel #color-options li.theme-3 a {
-    background-color: #009688;
-}
-
-.config-panel #color-options li.theme-4 a {
-    background-color: #4CAF50;
-}
-
-.config-panel #color-options li.theme-5 a {
-    background-color: #8BC34A;
-}
-
-.config-panel #color-options li.theme-6 a {
-    background-color: #C0CA33;
-}
-
-.config-panel #color-options li.theme-7 a {
-    background-color: #FFC107;
-}
-
-.config-panel #color-options li.theme-8 a {
     background-color: #FF9800;
-}
-
-.config-panel #color-options li.theme-9 a {
-    background-color: #FF5722;
-}
-
-.config-panel #color-options li.theme-10 a {
-    background-color: #795548;
-}
-
-.config-panel #color-options li.theme-11 a {
-    background-color: #607D8B;
-}
-
-.config-panel #color-options li.theme-12 a {
-    background-color: #673AB7;
-}
-
-.config-panel #color-options li.theme-13 a {
-    background-color: #3F51B5;
-}
-
-.config-panel #color-options li.theme-14 a {
-    background-color: #2196F3;
-}
-
-.config-panel #color-options li.theme-15 a {
-    background-color: #9C27B0;
-}
-
-.config-panel #color-options li.theme-16 a {
-    background-color: #E91E63;
 }
 
 .config-panel .close {
@@ -940,7 +892,6 @@ Contact section start here
     color: #fff;
 }
 
-
 /************ Education section ******/
 .education-section .item {
     margin-bottom: 45px;
@@ -952,14 +903,14 @@ Contact section start here
 
 .education-section .category {
     font-size: 18px;
-    color: #00BCD4;
+    color: #FF9800;
     margin-top: 0;
     margin-bottom: 16px;
 }
 
 .education-section .title {
     font-size: 18px;
-    color: #00BCD4;
+    color: #FF9800;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
@@ -970,10 +921,11 @@ Contact section start here
     margin-bottom: 0;
     font-size: 16px;
     font-weight: 300;
+
 }
 
 .education-section .time {
-    color: #8a8a8a;
+    color: #fff;
     margin-bottom: 15px;
 }
 
