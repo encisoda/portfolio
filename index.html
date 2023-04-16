@@ -25,16 +25,16 @@
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
     </div>
-    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">Education</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">Work Experiences</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">Skills</a>
+    <a id="about" onclick="showeducation()" class="animated fadeIn" style="animation-delay:2.2s;">Education</a>
+    <a id="work" onclick="showworkexperiences()" class="animated fadeIn" style="animation-delay:2.2s;">Work Experiences</a>
+    <a id="contact" onclick="showskills()" class="animated fadeIn" style="animation-delay:2.2s;">Skills</a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
         <h1>Hi, I'm Daniel</h1>
         <h2>Software Developer / Data Engineer / Jedi</h2>
         <div id="menu">
-            <a onclick="showabout()">Education</a>
-            <a onclick="showwork()">Work Experiences</a>
-            <a onclick="showcontact()">Skills</a>
+            <a onclick="showeducation()">Education</a>
+            <a onclick="showworkexperiences()">Work Experiences</a>
+            <a onclick="showskills()">Skills</a>
         </div>
         <table>
                 <tr>
@@ -50,15 +50,15 @@
                 </tr>
         </table>
     </div>
-    <div id="work_container" class="container">
-        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+    <div id="workexperiences_container" class="container">
+        <div onclick="closeworkexperiences()"><i class="fas fa-angle-right"></i></div>
         <h1>Work Experiences</h1>
         <section>
             <h2>Developer Full Stack .NET/Angular | Data Engineer</h2>
             <h2><i><a href="http://sspv.com.ar/">
                 SSPV Servicios y Sistemas de Post Venta SA | 2022 - present</a></i></h2>
             <p>
-                Insurtech application development
+                Insurtech application development.
                 Development of web applications.
                 Development of Microservos, REST APIs with Clean Architecture.
                 Development ETL.
@@ -131,8 +131,8 @@
             </div>
         </section>
     </div>
-    <div id="about_container" class="container">
-            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+    <div id="education_container" class="container">
+            <div onclick="closeeducation()"><i class="fas fa-angle-left"></i></div>
             <h1>Education</h1>
             <section>
                 <p>
@@ -152,44 +152,47 @@
                 </p>
             </section>
         </div>
-          <div id="contact_container" class="container">
-            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+          <div id="skills_container" class="container">
+            <div onclick="closeskills()"><i class="fas fa-angle-down"></i></div>
             <h1>Skills</h1>
             <section style="font-size:80px; position: absolute; text-align: center;">
-                <i class="devicon-python-plain"></i>
-                <i class="devicon-dotnetcore-plain"></i>
-                <i class="devicon-javascript-plain"></i>
-                <i class="devicon-angularjs-plain"></i>
                 <i class="devicon-csharp-plain"></i>
+                <i class="devicon-dotnetcore-plain"></i>
+                <i class="devicon-angularjs-plain"></i>
+                <i class="devicon-python-plain"></i>
+                <i class="devicon-dot-net-plain-wordmark"></i>
+                <i class="devicon-typescript-plain"></i>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-github-original"></i>
+                <i class="devicon-bitbucket-original"></i>
                 <i class="devicon-bootstrap-plain-wordmark"></i>
                 <i class="devicon-html5-plain-wordmark"></i>
                 <i class="devicon-css3-plain-wordmark"></i>
+                <i class="devicon-docker-plain"></i>
                 <i class="devicon-babel-plain"></i>
-                <i class="devicon-dot-net-plain-wordmark"></i>
                 <i class="devicon-gitlab-plain-wordmark"></i>
                 <i class="devicon-nodejs-plain-wordmark"></i>
                 <i class="devicon-express-original-wordmark"></i>
                 <i class="devicon-mongodb-plain-wordmark"></i>
                 <i class="devicon-mysql-plain-wordmark"></i>
+                <i class="devicon-oracle-original"></i>
                 <i class="devicon-jquery-plain-wordmark"></i>
                 <i class="devicon-git-plain"></i>
                 <i class="devicon-jupyter-plain-wordmark"></i>
                 <i class="devicon-redux-plain"></i>
                 <i class="devicon-tensorflow-original"></i>
-                <i class="devicon-docker-plain"></i>
                 <i class="devicon-visualstudio-plain"></i>
-                <i class="devicon-github-original"></i>
-                <i class="devicon-bitbucket-original"></i>
-                <i class="devicon-dot-net-plain"></i>
                 <i class="devicon-firefox-plain"></i>
                 <i class="devicon-materialui-plain"></i>
+                <i class="devicon-nuget-original"></i>
                 <i class="devicon-npm-original-wordmark"></i>
                 <i class="devicon-trello-plain"></i>
                 <i class="devicon-vscode-plain"></i>
             </section>
         </div>
         <div id="footer">
-            made on earth by a human <br> <a href="https://imfunniee.github.io">imfunniee</a>
+            <a href="https://drive.google.com/file/d/10txTJetntOL_41zHVn6EkUbz4kgSTnAP/view?usp=share_link">Download My Resume <i
+                class="fa fa-download" aria-hidden="true"></i></a>
         </div>
     <script src="index.js" type="text/javascript"></script>
     <script src="particles.js"></script>
